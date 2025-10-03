@@ -80,7 +80,7 @@
       "institution": "Information School, Xiamen University",
       "location": "Fujian, China",
       "area": "Digital Media Technology",
-      "studyType": "Master",
+      "studyType": "Undergraduate",
       "startDate": "2021-09-30",
       "endDate": "2023-10-01",
       "score": "87.76",
@@ -147,25 +147,25 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Hong, H., Sui, Z., Uesaka, L., Kudo, H. & Kobayashi, H. H. (2025). Exploring the Cockatoo's Engagement with Audiovisual Stimuli: An Inclusive Avian-IoT Interaction Design.",
+      "publisher": "In Proceedings of the International Conference on Animal-Computer Interaction",
+      "releaseDate": "2025-12-05",
+      "url": "",
+      "summary": ""
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Hong. H., Shimotoku, D., Kawase J., & Kobayashi, H. H. (2025). Smart Interactive IoT for Post Nuclear Disaster Landscapes: Towards Sustainable Human-Wildlife Coexistence.",
+      "publisher": "IEEE 13th Region 10 Humanitarian Technology Conference (R10-HTC)",
+      "releaseDate": "2025-10-01",
+      "url": "",
+      "summary": ""
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Sui, Z., Hong, H., Shimtoku, D., & Kobayashi, H. H. (2024). catAction: Deep learning for enhancing emotional cat–human interactions through the posture-based determination of the degrees of kittens’ defensive and offensive aggressions.",
+      "publisher": "In Proceedings of the International Conference on Animal-Computer Interaction",
+      "releaseDate": "2024-12-04",
+      "url": "",
+      "summary": ""
     }
   ],
   "skills": [
@@ -202,7 +202,7 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Animal-Computer Interaction",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
@@ -228,14 +228,14 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "name": "Evergreen: A somatosensory interaction space for plant dyeing experience",
+      "summary": "Evergreen is an interactive project that provides digital experience of plant dyeing to promote heritage protection.",
       "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
+        "Interaction designer",
+        "Programmer"
       ],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
+      "startDate": "2019-10",
+      "endDate": "2020-01",
       "url": "https://example.com"
     }
   ]
