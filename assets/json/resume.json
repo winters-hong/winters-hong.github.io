@@ -1,37 +1,36 @@
 {
   "basics": {
-    "name": "Haoran Hong",
-    "label": "Student",
+    "name": "Albert Einstein",
+    "label": "Scientist",
     "image": "",
-    "email": "h-haoran@g.ecc.u-tokyo.ac.jp",
-    "phone": "080-9374-215",
-    "url": "https://winters-hong.github.io",
-    "summary": "A PhD student at GSFS, the University of Tokyo, studying ACI (Animal-Computer Interaction), HCI (Human-Computer Interaction), and IoT (Internet of Things).",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "Asakusa",
-      "postalCode": "111-0032",
-      "city": "Taito",
-      "countryCode": "JP",
-      "region": "Tokyo"
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [
       {
-        "network": "LinkedIn",
-        "username": "Haoran Hong",
-        "url": "linkedin.com/in/haoran-hong-ba32a28303"
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
       }
     ]
   },
   "work": [
     {
-      "name": "teamlab",
-      "position": "Interactive Engineer (Summer Internship)",
-      "url": "https://www.team-lab.com/",
-      "startDate": "2024-09",
-      "summary": "Learning about theoretical knowledge and practical programming of GPGPU. Conceptualizing and implementing a BOIDS-based interactive digital art project by self.",
-      "highlights": [
-        "Relativity"
-      ]
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
     }
   ],
   "volunteer": [
@@ -43,25 +42,20 @@
       "startDate": "2014-04-01",
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-        "Men of the year 2014 by Time magazine"
-      ]
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
     {
-      "institution": "Graduated School of Frontier Sciences, University of Tokyo",
-      "location": "Chiba, Japan",
+      "institution": "University of Zurich, Zurich, Switzerland",
+      "location": "Zurich, Switzerland",
       "url": "https://www.uzh.ch/",
-      "area": "Socio-Cultural Environmental Studies",
+      "area": "Software Development",
       "studyType": "PhD",
-      "startDate": "2023-10-01",
-      "endDate": " - - ",
-      "score": "A",
-      "courses": [
-        "Spatial Information"
-      ]
+      "startDate": "1905-01-01",
+      "endDate": "1905-01-01",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
@@ -157,18 +151,13 @@
   ],
   "languages": [
     {
-      "language": "Mandarin Chinese",
+      "language": "German",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent (TOEFL iBT-99)",
-      "icon": ""
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Fluent (JLPT N1-125)",
+      "fluency": "Fluent",
       "icon": ""
     }
   ],
@@ -202,10 +191,7 @@
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"
