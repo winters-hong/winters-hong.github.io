@@ -5,6 +5,8 @@
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	主要背景色与大标题：#252525
 */
 
 html, body, div, span, applet, object,
@@ -117,7 +119,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4470c2 !important;
+			color: #252525 !important;
 		}
 
 	strong, b {
@@ -152,6 +154,7 @@ input, select, textarea {
 	}
 
 	h3 {
+		color:#555 ;
 		font-size: 1.75em;
 		line-height: 1.5em;
 	}
@@ -194,7 +197,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 8px #e4e4e4;
+		border-left: solid 8px #cfcfcf;
 		font-style: italic;
 		margin: 0 0 2.25em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -1784,8 +1787,9 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
+	/* 姓名大标题 */
 	header.major h2 {
-		color: #4470c2;
+		color: #555;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1852,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4470c2;
+			border-color: #252525;
 		}
 
 	select {
@@ -1953,7 +1957,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4470c2;
+			border-color: #252525;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2404,7 +2408,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4470c2;
+				background: #252525;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2620,7 +2624,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4470c2;
+			background-color: #252525;
 			color: #ffffff !important;
 		}
 
@@ -2702,7 +2706,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4470c2;
+		background: #252525;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2722,15 +2726,16 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #4470c2;
+			color: #252525;
 		}
 
+/* 社交媒体按钮：linkedin ins github */
 		#header a {
-			color: #d2f2e9;
+			color: #cfcfcf;
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #ffbe54 !important;
 			}
 
 		#header > header {
@@ -2789,9 +2794,9 @@ input, select, textarea {
 				margin: 0;
 				padding: 0;
 			}
-
+			/* 导航栏边界线 */
 				#header > nav ul li {
-					border-top: solid 2px #557bc2;
+					border-top: solid 2px #363636;
 					display: block;
 					padding: 0;
 				}
@@ -2810,7 +2815,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4470c2 !important;
+							color: #252525 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3078,7 +3083,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4470c2;
+						background: #252525;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
