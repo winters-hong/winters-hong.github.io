@@ -1,2 +1,4 @@
 plugins:
  - jekyll-sitemap
+
+max_width: 1200px
