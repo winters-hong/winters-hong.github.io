@@ -1,4 +1,12 @@
 plugins:
- - jekyll-sitemap
+  - jekyll-sitemap
 
+# 可自定义的最大宽度
 max_width: 1200px
+
+# 使用 primer 主题（GitHub Pages 内置支持）
+theme: jekyll-theme-primer
+
+# 指定 Sass 目录
+sass:
+  sass_dir: _sass
