@@ -197,7 +197,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 8px #cfcfcf;
+		border-left: solid 8px #bbbbbb;
 		font-style: italic;
 		margin: 0 0 2.25em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -2731,7 +2731,7 @@ input, select, textarea {
 
 /* 社交媒体按钮：linkedin ins github */
 		#header a {
-			color: #cfcfcf;
+			color: #bbbbbb;
 		}
 
 			#header a:hover {
@@ -2758,8 +2758,8 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
-				font-style: italic;
+				color: #bbbbbb;
+				/* font-style: italic; */
 				margin: 1em 0 0 0;
 			}
 
