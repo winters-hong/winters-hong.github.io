@@ -1,0 +1,163 @@
+<!-- ...existing code... -->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>IoT in Fukushima</title>
+
+    <!-- Adjust path if your main stylesheet is located elsewhere -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="icon" href="../favicon.png" />
+</head>
+<body class="is-preload">
+    <!-- header/sidebar updated to use the site-wide #header / #nav structure from main.css -->
+    <div id="header">
+        <div class="top">
+            <div id="logo">
+                <h1 id="title"><a href="../index.html">Haoran Hong</a></h1>
+                <p>Researcher, Student</p>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#top" id="top-link" class="active"><span>Overview</span></a></li>
+                    <li><a href="#second" id="second-link"><span>Method</span></a></li>
+                    <li><a href="#third" id="third-link" ><span>Findings</span></a></li>
+                    <li><a href="#fourth" id="fourth-link"><span>Gallery</span></a></li>
+                </ul>
+            </nav>
+
+            <footer class="bottom">
+                <!-- optional contact / small links can go here if desired -->
+            </footer>
+        </div>
+    </div>
+
+    <div id="headerToggle">
+        <a href="#" class="toggle"></a>
+    </div>
+
+    <!-- main content moved inside #main > section to match stylesheet expectations -->
+    <div id="main">
+        <section id="top" class="proj-one" style="background-image: url('../images/fukushima-1.jpg');">
+            <div class="container">
+                <nav aria-label="Breadcrumb" style="margin-bottom:1.5rem;">
+                    <a href="../index.html#projects">Projects</a>
+                    <span aria-hidden="true"> &nbsp; > &nbsp; </span>
+                    <span>IoT in Fukushima</span>
+                </nav>
+
+                <header>
+                    <h2>Interactive IoT system in radioactive zone of Fukushima</h2>
+                    <p>Keywords: wildlife-computer interaction; environmental monitoring; Internet of Things
+                    <br/> • 2023/11 - present</p>
+                </header>
+                <p>
+                    This research prototyped, deployed, and tested an IoT itneractive system in the "difficult-to-return" zone of Fukushima, Japan.
+                    Field experiment were conducted in 2025 to assess the system's stability and general effectiveness on wildlife.
+                </p>
+
+                <h2>Background</h2>
+                <p> The Fukushima disaster has left significant challenges in socio-ecological recovery. 
+                    In evacuated residential areas, wildlife-related conflicts have emerged as a critical barrier to the return of population and local revitalization.</p>
+
+                <p> Despite ongoing decontamination and rebuilding, high radiation levels and damaged facilities continue to restrict prolonged field research and habitation. 
+                    For agricultural recovery in particular, there is a need for systems that ensure safety in radiation-exposed areas while enabling efficient operation in a region facing population decline. </p>
+            </div>
+        </section>
+
+        <section id="second" class="two">
+            <div class="container">
+                <header>
+                    <h2>Method</h2>
+                </header>
+                
+                <h3>Objectives</h3>
+                <ul>
+                    <li>Encourage relocation of wild animals through interactive audiovisual stimuli.</li>
+                    <li>Establish remote access to observe wildlife activity in natural environments.</li>
+                </ul>
+            
+                <h3>Technical Approach</h3>
+                    <ul>
+                        <li>Hybrid network with fixed nodes + wearable sensors.</li>
+                        <li>Cameras (AXIS P3715-PLVE), microphones, amplifiers.</li>
+                        <li>LED screens + speakers deliver visual/auditory cues.</li>
+                        <li>LPWAN for sensors; satellite Internet in exclusion zone.</li>
+                        <li>Unity3D-based application for stimulus control and visualization.</li>
+                    </ul>
+                    
+                    <span class="image fit" style="width: 88%;"><img src="../images/fuku-1.png" alt="" />
+                    Conceptual design of system enabling remote human-wildlife interaction in the exclusion zone</span>
+                    
+
+                <h3>Field Evaluation</h3>
+                <ul>
+                    <li>432 hours in exclusion zone (March 2025).</li>
+                    <li>6,018 motion events; 980 near display.</li>
+                    <li>Nighttime interactions — 401 detected events; 34 confirmed animal approaches.</li>
+                    <li>Japanese racoon dog, fox, and raccoon.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="third" class="three"> 
+            <div class="container"> 
+                <header>
+                    <h2>Findings</h2>
+                </header>
+                <ul>
+                    <li>This IoT system achieves stable 24/7 operation in harsh outdoor conditions</li>
+                    <li>Interactive stimuli significantly increased animal reaction (p = 0.0048)</li>
+                    <li>No significant difference in overall visitation frequency (p = 0.611)</li>
+            </div>
+        </section>
+
+        <section id="fourth" class="gallery">
+            <div class="container">
+                <header>
+                    <h2>Gallery</h2>
+                </header>
+                <div class="row">
+                    <div class="col-4 col-12-mobile">
+                        <span class="image fit"><img src="../images/fukushima-2.jpg" alt="" /></span>
+                        <span class="image fit"><img src="../images/fuku-winter.jpg" alt="" /></span>
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <span class="image fit"><img src="../images/fuku-cam.jpg" alt="" /></span>
+                        <span class="image fit"><img src="../images/fuku-mic.jpg" alt="" /></span>
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <span class="image fit"><img src="../images/fuku-house.jpg" alt="" /></span>
+                        <span class="image fit"><img src="../images/fuku-cow.jpg" alt="" /></span>
+                    </div>
+                </div>
+                
+                <!-- <ul>
+                    <li><a href="https://example.com/fukushima-report.pdf" target="_blank" rel="noopener">Full project report (PDF)</a></li>
+                </ul> -->
+            </div>
+        </section>
+    </div>
+
+    <!-- footer changed to #footer so stylesheet styles apply -->
+    <div id="footer">
+        <div class="container" style="padding:2rem 0; text-align:center;">
+            <p>&copy; 2025 Winters Hong</p>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
+<!-- ...existing code... -->

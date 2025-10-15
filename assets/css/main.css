@@ -90,7 +90,7 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.75em;
 		margin: 0;
-		color: #888;
+		color: #555;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -114,7 +114,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #333;
 		line-height: 1.5em;
 	}
 
@@ -157,7 +157,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 600;
+		font-weight: 450;
 	}
 
 	em, i {
@@ -210,6 +210,7 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+	
 
 /* Container */
 
@@ -1750,6 +1751,10 @@ input, select, textarea {
 		border: 0;
 	}
 
+	#main > section.gallery img { 
+    	display: block;
+    	margin-bottom: 1em; /* 可调整为 1rem / 2rem 等 */
+	}
 		.image img {
 			display: block;
 			width: 100%;
@@ -1949,7 +1954,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #303030;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2255,12 +2260,18 @@ input, select, textarea {
 			
 			/* 背景图 */
 			#main > section.one {
-				background-color: rgba(60, 60, 60, 0.75);
+				background-color: rgba(60, 60, 60, 0.85);
 				background-image: url("../../images/namie.jpg");
 				padding-top: 30vh;
 				padding-left: 10%;
 				padding-right: 10%;
 				background-blend-mode: multiply; /* 或 lighten、overlay 等 */
+			}
+
+			#main > section.proj-one {
+				background-color: rgba(239, 239, 239, 0.9999);
+				background-blend-mode: overlay;
+				height: 100vh;
 			}
 
 			#main > section.two {
@@ -2278,6 +2289,10 @@ input, select, textarea {
 				background-color: #f5fafa;
 			}
 			#main > section.six {
+				background-color: #ecf1f1;
+			}
+
+			#main > section.gallery {
 				background-color: #ecf1f1;
 			}
 
@@ -2344,7 +2359,7 @@ input, select, textarea {
 		/* Icons */
 
 			ul.icons li a {
-				width: 3em;
+				width: 1.75em;
 			}
 
 		/* Item */
@@ -2391,7 +2406,6 @@ input, select, textarea {
 			#main {
 				margin-left: 20%;
 			}
-
 	}
 
 /* Narrower */
