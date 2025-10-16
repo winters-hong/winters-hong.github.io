@@ -2271,6 +2271,9 @@ input, select, textarea {
 			#main > section.proj-one {
 				background-color: rgba(239, 239, 239, 0.9999);
 				background-blend-mode: overlay;
+				background-size: cover;
+				background-repeat: no-repeat;
+    			background-position: center center;
 				height: 100vh;
 			}
 

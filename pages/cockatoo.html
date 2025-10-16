@@ -1,0 +1,153 @@
+<!-- ...existing code... -->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>CyBirdwood</title>
+
+    <!-- Adjust path if your main stylesheet is located elsewhere -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="icon" href="../favicon.png" />
+</head>
+<body class="is-preload">
+    <!-- header/sidebar updated to use the site-wide #header / #nav structure from main.css -->
+    <div id="header">
+        <div class="top">
+            <div id="logo">
+                <h1 id="title"><a href="../index.html">Haoran Hong</a></h1>
+                <p>Researcher, Student</p>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#top" id="top-link" class="active"><span>Overview</span></a></li>
+                    <li><a href="#second" id="second-link"><span>Method</span></a></li>
+                    <li><a href="#third" id="third-link" ><span>Findings</span></a></li>
+                    <li><a href="#fourth" id="fourth-link"><span>Gallery</span></a></li>
+                </ul>
+            </nav>
+
+            <footer class="bottom">
+                <!-- optional contact / small links can go here if desired -->
+            </footer>
+        </div>
+    </div>
+
+    <!-- main content moved inside #main > section to match stylesheet expectations -->
+    <div id="main">
+        <section id="top" class="proj-one" style="background-image: url('../images/cok-cage.jpg');">
+            <div class="container">
+                <nav aria-label="Breadcrumb" style="margin-bottom:1.5rem;">
+                    <a href="../index.html#fourth">Projects</a>
+                    <span aria-hidden="true"> &nbsp; > &nbsp; </span>
+                    <span>CyBirdwood</span>
+                </nav>
+
+                <header>
+                    <h2>CyBirdwood: Multimodal co-entertainment experience with a captive cocaktoo</h2>
+                    <p>Keywords: Animal-Computer Interaction; animal enrichment; Internet of Things
+                    <br/> • 2022/10 - 2023/09</p>
+                </header>
+                <p>
+                    CyBirdwood is an urban-aviary coentertainment experience system designed for a captive salmon-crested cockatoo in Kyoto City Zoo, Japan.
+                    <br/> This project explores the potential of interactive technologies to enhance the welfare and engagement of captive animals through multimodal stimuli.
+                </p>
+                <p><a href="#second" class="scrolly">TELL ME MORE &nbsp; ↓</a></p>
+            </div>
+        </section>
+
+        <section id="second" class="two" style="background-color: white;">
+            <div class="container">
+                <header>
+                    <h2>Method</h2>
+                </header>
+                    <h3>Background</h3>
+                <p> 
+                    For socially complex species such as parrots, environmental enrichment is crucial for improving quality of life in captivity.
+                    Previous work in the Animal-Computer Interaction (ACI) field has demonstrate that parrots are capable of interacting with digital interfaces and open possibilities for multimodal communication and enrichment design.
+                    <br/><br/>
+                    However, existing approaches face notable limitations: many rely on prolonged training by human caretakers, focus primarily on unimodal stimuli, or lack flexibility and scalability for customizing real-time interactions. These constraints limit the practical applicability of systems, especially in zoo contexts where direct visitor-animal interaction is irregular or logistically challenging.
+                </p>
+                
+                <h3>Question to Ask</h3>
+                <ul>
+                    <li>How can we develop a remotely accessible system for multimodal engagement with avian species?</li>
+                    <li>Can external audiovisual stimuli effectively engage a cockatoo's attention?</li>
+                    <li>During interaction, are unimodal or multimodal stimuli more effective in maintaining engagement?</li>
+                </ul>
+            
+                <h3>Technical Approach</h3>
+                <p>
+                    A demo system was prototyped with three primary components: avian interaction module, mobile application, and the server. 
+                </p>
+                <ul>
+                    <li>Engagement trigger: web cameras with video motion detection program</li>
+                    <li>Multisensory cues: natural environmental audio (waterflow & bird calling), continuous blue light (470 nm)</li>
+                    <li>Live monitoring & stimuli management: online mobile application</li>
+                </ul>
+                    
+                <span class="image fit" style="width: 57%;"><img src="../images/cok-system.jpg" alt="" />
+                System diagram of the prototyped avian interaction module</span>
+
+                <h3>Evaluation in Zoo</h3>
+                <ul>
+                    <li>3 days in Kyoto City Zoo (June 2023)</li>
+                    <li>Free-to-engage setting for the cockatoo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="third" class="three"> 
+            <div class="container"> 
+                <header>
+                    <h2>Findings</h2>
+                </header>
+                <ul>
+                    <li>Proximity-triggered and stimuli-based design enabled bird participant to be an active agent in the interaction loop.</li>
+                    <li>Auditory stimuli (natural environmental sound) were particularly effective in encouraging engagement.</li>
+                    <li>Single-modal visual stimuli (470nm blue light) provided negligible effect.</li>
+            </div>
+        </section>
+
+        <section id="fourth" class="gallery">
+            <div class="container">
+                <header>
+                    <h2>Gallery</h2>
+                </header>
+                <div class="row">
+                    <div class="col-6 col-12-mobile">
+                        <span class="image fit"><img src="../images/cok-cage.jpg" alt="" /></span>
+                        <span class="image fit"><img src="../images/cockatoo.png" alt="" /></span>
+                    </div>
+                    <div class="col-6 col-12-mobile">
+                    </div>
+                </div>
+                
+                <!-- <ul>
+                    <li><a href="https://example.com/fukushima-report.pdf" target="_blank" rel="noopener">Full project report (PDF)</a></li>
+                </ul> -->
+            </div>
+        </section>
+    </div>
+
+    <!-- footer changed to #footer so stylesheet styles apply -->
+    <div id="footer">
+        <div class="container" style="padding:2rem 0; text-align:center;">
+            <p>&copy; 2025 Winters Hong</p>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
+<!-- ...existing code... -->
