@@ -1,0 +1,131 @@
+<!-- ...existing code... -->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Landscape Rippling</title>
+
+    <!-- Adjust path if your main stylesheet is located elsewhere -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="icon" href="../favicon.png" />
+</head>
+<body class="is-preload">
+    <!-- header/sidebar updated to use the site-wide #header / #nav structure from main.css -->
+    <div id="header">
+        <div class="top">
+            <div id="logo">
+                <h1 id="title"><a href="../index.html">Haoran Hong</a></h1>
+                <p>Researcher, Student</p>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#top" id="top-link" class="active"><span>Top</span></a></li>
+                    <li><a href="#second" id="second-link"><span>Concept</span></a></li>
+                    <li><a href="#third" id="third-link" ><span>Outputs</span></a></li>
+                    <li><a href="#fourth" id="fourth-link"><span>Gallery</span></a></li>
+                </ul>
+            </nav>
+
+            <footer class="bottom">
+                <!-- optional contact / small links can go here if desired -->
+            </footer>
+        </div>
+    </div>
+
+    <!-- main content moved inside #main > section to match stylesheet expectations -->
+    <div id="main">
+        <section id="top" class="proj-one" style="background-image: url('../images/water.jpg');">
+            <div class="container">
+                <nav aria-label="Breadcrumb" style="margin-bottom:1.5rem;">
+                    <a href="../index.html#fourth">Projects</a>
+                    <span aria-hidden="true"> &nbsp; > &nbsp; </span>
+                    <span>Landscape Rippling</span>
+                </nav>
+
+                <header>
+                    <h2>Landscape Rippling: Water-Mediated Interaction Design for Innovative Exhibition</h2>
+                    <p>Keywords: Human-Computer Interaction; Natural User Interface; Digital Art
+                    <br/> • 2021/10 - 2022/05</p>
+                </header>
+                <p><strong>Landscape Rippling</strong> is a water-mediated interaction system, with the famous Chinese painting "A Panorama of Rivers and Mountains" as its context.</p>
+                <p><a href="#second" class="scrolly">TELL ME MORE &nbsp; ↓</a></p>
+            </div>
+        </section>
+
+        <section id="second" class="two" style="background-color: white;">
+            <div class="container">
+                <header>
+                    <h2>Concept</h2>
+                </header>
+                <p> 
+                    Pouring water into the container would restore the colors of painting. Then uers can interact with water to explore more detailed scenes in the painting.
+                    As tangible water consisting of its interface, combined with lights, music, and other audiovisual effects, this interaction could provide immersive experience.
+                    <br/> 
+                    Benefiting from the common points with river surface, the water interface connects the reality and virtual world. 
+                    Through playing with water in the container, experiencers could feel that they get close to the river and touch the scenery inside the painting. 
+                    That becomes a process of boundary elimination.
+                </p>
+            
+                <h3>Technical Approach</h3>
+                <ul>
+                    <li>Motion detection: a Kinect tracks human movement, processing joint points and depth data</li>
+                    <li>Water sensor: sending on/off digital signals in terms of the water level in container</li>
+                    <li>Participants can pour water to color, or use hand gesture to explore details of painting</li>
+                </ul>
+                    
+                <span class="image fit" style="width: 57%;"><img src="../images/water-system.png" alt="" /> Concept design of Landscape Rippling</span>
+            </div>
+        </section>
+
+        <section id="third" class="three"> 
+            <div class="container"> 
+                <header>
+                    <h2>Outputs</h2>
+                </header>
+                <ul>
+                    <li> UX test conducted within XMU campus (Jan, 2021) revealed the effectiveness of this context-based interaction on improving uers' immersion, encouraging reflection, and enhancing imagination.</li>
+                    <li> This work was orally presented on the 35th International Conference on Computer Animation and Social Agents (CASA 2022), with full papar published on <a href="https://doi.org/10.1002/cav.2064"> Wiley Online Library. </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="fourth" class="gallery">
+            <div class="container">
+                <header>
+                    <h2>Gallery</h2>
+                </header>
+                <div class="row">
+                    <div class="col-6 col-12-mobile">
+                        <span class="image fit"><img src="../images/water.jpg" alt="" /></span>
+                        <span class="image fit"><img src="../images/water-use.jpg" alt="" /></span>
+                        <span class="image fit"><img src="../images/water-set.jpg" alt="" /></span>
+                    </div>
+                    <div class="col-6 col-12-mobile">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer changed to #footer so stylesheet styles apply -->
+    <div id="footer">
+        <div class="container" style="padding:2rem 0; text-align:center;">
+            <p>&copy; 2025 Winters Hong</p>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
+<!-- ...existing code... -->
