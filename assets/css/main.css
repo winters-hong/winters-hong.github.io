@@ -2175,9 +2175,9 @@ input, select, textarea {
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
 				}
-
+/* 导航栏图标高亮颜色 */
 					#nav ul li a.active span:before {
-						color: #f0bb58;
+						color: #fff;
 					}
 
 /* Footer */
